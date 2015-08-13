@@ -1,0 +1,32 @@
+<com.futureinapps.myexpandablerecyclerview.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/relaetive_item"
+    android:background="@drawable/selector_lv_background"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+
+        android:id="@+id/simple_text"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        android:layout_below="@id/simple_text"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/simple_text"
+        android:layout_alignRight="@+id/linear"
+        />
+
+</com.futureinapps.myexpandablerecyclerview.MyRelativeLayout>

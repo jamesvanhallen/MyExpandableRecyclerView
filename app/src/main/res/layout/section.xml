@@ -1,0 +1,24 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="48dp">
+
+
+    <TextView
+        tools:ignore="MissingPrefix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:text="sdfdsfsdfds"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/section_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    
+</RelativeLayout>
